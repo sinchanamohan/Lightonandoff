@@ -1,0 +1,86 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light on and off</title>
+    <style>
+        #btn:hover {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            
+        }
+        #btn{
+            padding: 20px;
+            background-color: #008CBA; /* Blue */
+            color: white;
+        }
+        img {
+            
+            margin: 20px auto;
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a JavaScript Example</h1>
+    <button id="btn" onclick="document.getElementById('Images').src='./images/lighton.jpg'">
+        Turn on the light
+    </button>
+    <img id="Images" src="./images/lightoff.jpg" alt="lightoff" style="width:500px;">
+    <button id="btn" onclick="document.getElementById('Images').src='./images/lightoff.jpg'">
+        Turn off the light
+    </button>
+</body>
+</html> -->
+<!-- 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    
+</head>
+<body>
+    <script>
+        function myFunction(){
+            document.getElementById("Demo").innerHTML= "This is Sinchana From Hassan"
+        }
+    </script>
+<h1>Function Methon </h1>
+<p id="Demo"> Sinchana </p>  
+<button type="button" onclick="myFunction()">Try Me!</button>  
+</body>
+</html> -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Creating an Object</h1>
+    <h2>Using an Object Literal</h2>
+    <p id="demo"></p>
+    <script>
+        const person={
+            firstname: "Sinchana",
+            lastname: "Mohan",
+            age: 25,
+            eyecolor: "brown",
+        };
+        document.getElementById("demo").innerHTML = 
+        person.firstname+" is "+person.age+" years old. ";
+
+    </script>
+    
+
+    
+</body>
+</html>
